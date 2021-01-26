@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bias in Non-Political News Articles'** paper. We publicly release 1) Implicit Media Bias Dataset (IMBD) and 2) implementation code of four classifiers for reproducibility.
+This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bias in Non-Political News Articles'** paper. We publicly release 1) Implicit Media Bias Dataset (IMBD) and 2) source code of four classifiers for reproducibility.
 
 
 ## 1. IMBD
