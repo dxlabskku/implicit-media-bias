@@ -4,6 +4,7 @@ This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bia
 
 
 ## 1. IMBD
+Korean news articles
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
   - columns: id, date, title, text, news_outlet_label, human_label, unbias, objectiveness, fairness, unbiasedness
