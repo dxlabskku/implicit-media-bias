@@ -4,15 +4,18 @@ This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bia
 
 
 ## 1. IMBD
-News articles in the section of information technology and science, which were published in two most-biased Korean news outlets
+News articles in the section of information technology and science, which were published in two most-biased Korean news outlets.
 
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
-  - columns: id, date, title, text, news_outlet_label, human_label, unbias, objectiveness, fairness, unbiasedness
+  - columns: id, date, title, text, news_outlet_label, human_label, unbias, objectiveness, fairness, unbiasedness\
+      `*_label - integer {0: 'consevative', 1: 'progressive'}`
+      `unbias, objectiveness, fairness, unbiasedness - float -3.00 to 3.00`
 
 - trained_news_articles_24376.csv ( KB)
   - 24,376 labeled news articles (18,094 conservative and 6,282 progressive)
   - columns: id, date, title, text, news_outlet_label
+      `*_label - integer {0: 'consevative', 1: 'progressive'}`
 
 
 ## 2. Source Code of Four Classifiers
