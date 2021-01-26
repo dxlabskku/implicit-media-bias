@@ -6,11 +6,11 @@ This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bia
 ## 1. IMBD
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
-  - columns: id, date, title, text, label
+  - columns: id, date, title, text, news_outlet_label, human_label, unbias, objectiveness, fairness, unbiasedness
 
 - trained_news_articles_24376.csv ( KB)
   - 24,376 labeled news articles (18,094 conservative and 6,282 progressive)
-  - columns: id, date, title, text, label
+  - columns: id, date, title, text, news_outlet_label
 
 
 ## 2. Experiments for Classifying the Political Orientations of News Outlets
