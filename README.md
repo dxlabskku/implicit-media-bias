@@ -4,7 +4,8 @@ This repository is for **'You Can't See Their Bias: Exploring Implicit Media Bia
 
 
 ## 1. IMBD
-Korean news articles
+News articles in the section of information technology and science, which were published in two most-biased Korean news outlets
+
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
   - columns: id, date, title, text, news_outlet_label, human_label, unbias, objectiveness, fairness, unbiasedness
@@ -14,4 +15,18 @@ Korean news articles
   - columns: id, date, title, text, news_outlet_label
 
 
-## 2. Experiments for Classifying the Political Orientations of News Outlets
+## 2. Source Code of Four Classifiers
+Classifiers which are trained/examined with large-scale non-political articles (trained_news_articles_24376.csv), to identify each article's political orientations (news_outlet_label of human_evaluated_news_articles_200.csv).
+
+- requirements.txt
+
+- models/naive_bayes.py
+
+- models/cnn.py
+
+- models/bilstm.py
+
+- models/bert.py
+
+
+For more details of news outlets and experiment settings, please refer to our paper.
