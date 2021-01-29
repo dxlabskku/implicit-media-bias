@@ -11,7 +11,7 @@ News articles in the section of information technology and science, which were p
   - columns: `id, date, topic, title, text, news_outlet_label, human_label, objectiveness, fairness, unbiasedness`\
       id - integer (1 to 200) identifier for news articles (same as the annotated label in *K*-means clustering; refer to the paper)\
       news_outlet_label - integer {0: 'consevative', 1: 'progressive'}\
-      human_label - float (-1.00 `consevative` to 1.00 `progressive`)\
+      human_label - float (-1.00 'consevative' to 1.00 'progressive')\
       objectiveness, fairness, unbiasedness - float (-3.00 to 3.00)
 
 - trained_news_articles_24376.csv ( KB)
