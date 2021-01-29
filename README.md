@@ -8,14 +8,15 @@ News articles in the section of information technology and science, which were p
 
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
-  - columns: `id, date, title, text, news_outlet_label, human_label, objectiveness, fairness, unbiasedness`\
+  - columns: `id, date, topic, title, text, news_outlet_label, human_label, objectiveness, fairness, unbiasedness`\
+      id - identifier for news articles (same as the annotated label in `K`-means clustering; refer to the paper)
       news_outlet_label - integer {0: 'consevative', 1: 'progressive'}\
       human_label - integer {0: 'consevative', 1: 'progressive', 2: 'neutral'}\
       objectiveness, fairness, unbiasedness - float (-3.00 to 3.00)
 
 - trained_news_articles_24376.csv ( KB)
   - 24,376 labeled news articles (18,094 conservative and 6,282 progressive)
-  - columns: `id, date, title, text, news_outlet_label`\
+  - columns: `date, topic, title, text, news_outlet_label`\
       news_outlet_label - integer {0: 'consevative', 1: 'progressive'}
 
 
