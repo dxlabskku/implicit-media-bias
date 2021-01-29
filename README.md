@@ -9,7 +9,8 @@ News articles in the section of information technology and science, which were p
 - human_evaluated_news_articles_200.csv ( KB)
   - 200 labeled news articles (100 conservative and 100 progressive)
   - columns: `id, date, title, text, news_outlet_label, human_label, objectiveness, fairness, unbiasedness`\
-      &#42;&#95;label - integer {0: 'consevative', 1: 'progressive'}\
+      news_outlet_label - integer {0: 'consevative', 1: 'progressive'}\
+      human_label - integer {0: 'consevative', 1: 'progressive', 2: 'neutral'}\
       objectiveness, fairness, unbiasedness - float (-3.00 to 3.00)
 
 - trained_news_articles_24376.csv ( KB)
